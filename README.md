@@ -4,7 +4,7 @@ The Homebrew tap for [brewdash](https://github.com/lemiorhan/brewdash), a
 dashboard for Homebrew on your Mac.
 
 ```
-brew install --cask lemiorhan/brewdash/brewdash
+brew trust lemiorhan/brewdash && brew install --cask lemiorhan/brewdash/brewdash
 ```
 
 The cask always installs the latest stable release. brewdash then updates
